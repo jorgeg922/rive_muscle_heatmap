@@ -1,0 +1,30 @@
+name: rive_muscle_heatmap
+description: Drop-in interactive human muscle heatmap widget for Flutter, powered by Rive. Highlight any set of muscles with one widget. Free anatomy asset included.
+version: 0.1.0
+homepage: https://www.fitnessvisuals.com/?utm_source=pub_dev&utm_medium=referral&utm_campaign=flutter-package
+repository: https://github.com/jorgeg922/rive_muscle_heatmap
+issue_tracker: https://github.com/jorgeg922/rive_muscle_heatmap/issues
+topics:
+  - rive
+  - fitness
+  - anatomy
+  - animation
+  - health
+
+environment:
+  sdk: ^3.8.0
+  flutter: ">=3.32.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  rive: ^0.14.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  assets:
+    - assets/animations/human_anatomy_free_basic_v1.0.riv
