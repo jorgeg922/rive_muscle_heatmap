@@ -45,7 +45,7 @@ void main() {
       const widget = AnatomyHeatmap();
       expect(widget.activeMuscles, isEmpty);
       expect(widget.assetPath, AnatomyHeatmap.bundledAssetPath);
-      expect(widget.artboardName, 'Front');
+      expect(widget.artboardName, 'Male-Front');
       expect(widget.fit, Fit.contain);
     });
   });

@@ -1,9 +1,9 @@
-# Asset License — `human_anatomy_free_basic_v1.0.riv`
+# Asset License — `human_anatomy_free_basic_v2.0.riv`
 
 Copyright © Fitness Visuals — [fitnessvisuals.com](https://www.fitnessvisuals.com)
 
 This license applies **only** to the Rive asset shipped at
-`assets/animations/human_anatomy_free_basic_v1.0.riv`. The Dart source code
+`assets/animations/human_anatomy_free_basic_v2.0.riv`. The Dart source code
 in this package is licensed separately under the MIT License (see `LICENSE`).
 
 ## You may
@@ -31,12 +31,13 @@ in this package is licensed separately under the MIT License (see `LICENSE`).
 
 ## Paid upgrades
 
-The Basic ($30) and Advanced ($50) heatmaps at
-[fitnessvisuals.com](https://www.fitnessvisuals.com/pricing) add male and
-female body shapes, runtime-themable colors, tap-to-identify muscle events,
-and integration samples for Flutter, SwiftUI, Android, and React. Each pack
-ships under its own license terms; buying a pack does not grant additional
-rights over this free asset.
+The free asset is the male front view only. The Basic ($30) and Advanced
+($50) heatmaps at [fitnessvisuals.com](https://www.fitnessvisuals.com/pricing)
+add the back view, a female body shape, 11 more muscles, and on Advanced
+runtime-themable colors and tap-to-identify muscle events, with integration
+samples for Flutter, SwiftUI, Android Kotlin, and React. Each pack ships
+under its own license terms; buying a pack does not grant additional rights
+over this free asset.
 
 ## Warranty
 

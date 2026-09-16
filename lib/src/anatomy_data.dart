@@ -1,13 +1,16 @@
 // MIT License — Copyright (c) Fitness Visuals. https://fitnessvisuals.com
 
-/// Every muscle the bundled `human_anatomy_free_basic_v1.0.riv` asset can
+/// Every muscle the bundled `human_anatomy_free_basic_v2.0.riv` asset can
 /// highlight. This enum is the public contract of `AnatomyHeatmap`: pass any
 /// subset of these values via `activeMuscles` and they light up.
 ///
 /// [riveProperty] is the exact view-model property name the bundled free
 /// asset expects. The widget maps `Muscle` to `riveProperty` internally so
-/// callers never deal with stringly-typed names. The paid Fitness Visuals
-/// heatmaps use corrected names and additional muscles not listed here.
+/// callers never deal with stringly-typed names.
+///
+/// Since 0.2.0 these property names match the paid Fitness Visuals heatmaps
+/// (Basic v2.0 and Advanced v3.0), which add the back view, a female body
+/// shape, and further muscles not listed here.
 enum Muscle {
   /// Chest.
   pectoralisMajor('pectoralisMajor', 'Pectoralis Major'),
@@ -37,7 +40,7 @@ enum Muscle {
   extensorCarpiUlnaris('extensorCarpiUlnaris', 'Extensor Carpi Ulnaris'),
 
   /// Abs.
-  rectusAbdominis('abs', 'Rectus Abdominis'),
+  rectusAbdominis('rectusAbdominis', 'Rectus Abdominis'),
 
   /// Side abs.
   externalObliques('externalObliques', 'External Obliques'),
@@ -53,9 +56,6 @@ enum Muscle {
 
   /// Long strap muscle across the thigh.
   sartorius('sartorius', 'Sartorius'),
-
-  /// Side of the hip.
-  gluteusMedius('gluteusMedius', 'Gluteus Medius'),
 
   /// Front of the shin.
   tibialisAnterior('tibialisAnterior', 'Tibialis Anterior'),
@@ -114,9 +114,6 @@ enum MuscleGroup {
     Muscle.vastusMedialis,
     Muscle.sartorius,
   }),
-
-  /// Glutes (front-view portion).
-  glutes('Glutes', {Muscle.gluteusMedius}),
 
   /// Calves and shins.
   calves('Calves', {
